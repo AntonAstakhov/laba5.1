@@ -36,15 +36,6 @@ public class Main2Activity extends AppCompatActivity {
 
             }
         });
-
-//        btnViewData.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Main2Activity.this, ListDataActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-
     }
 
     public void AddData(String newEntry) {
