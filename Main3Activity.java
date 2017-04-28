@@ -1,3 +1,5 @@
+// класс для выведения средней записи из БД
+
 package com.example.anton.laba5new;
 
 import android.support.v7.app.AppCompatActivity;
