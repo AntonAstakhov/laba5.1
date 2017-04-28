@@ -1,3 +1,5 @@
+// класс для выведения версии БД
+
 package com.example.anton.laba5new;
 
 import android.content.Intent;
