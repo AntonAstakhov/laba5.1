@@ -24,7 +24,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true" />
 
-    <!--изначальный список-->
     <ListView
         android:id="@+id/listView"
         android:layout_width="120dp"
