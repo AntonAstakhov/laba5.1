@@ -41,7 +41,7 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     public void AddData(String newEntry) {
-        boolean insertData = mDatabaseHelper.addData(newEntry, "time");
+        boolean insertData = mDatabaseHelper.addData(newEntry, new java.util.Date().getTime());
 
         if (insertData) {
             toastMessage("Data Successfully Inserted!");
