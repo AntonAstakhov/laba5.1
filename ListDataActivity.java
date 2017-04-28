@@ -57,8 +57,8 @@ public class ListDataActivity extends AppCompatActivity {
         int i = 0;
         while (i < listDataTime.size()) {
             DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-            Date t = new java.sql.Date(new java.util.Date().getTime());
-            listDataTimeS.add(i, dateFormat.format(t));
+            Date t1 = new java.sql.Date(listDataTime.get(i));
+            listDataTimeS.add(i, dateFormat.format(t1));
             i++;
         }
 
