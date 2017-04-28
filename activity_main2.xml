@@ -34,13 +34,6 @@
             android:text="Add"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
-        <!--<Button-->
-            <!--android:layout_marginLeft="20dp"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:id="@+id/btnView"-->
-            <!--android:text="View Data"-->
-            <!--android:layout_toRightOf="@+id/btnAdd"/>-->
 
     </RelativeLayout>
 
