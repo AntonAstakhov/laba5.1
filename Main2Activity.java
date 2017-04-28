@@ -1,3 +1,5 @@
+// класс для добавления записей
+
 package com.example.anton.laba5new;
 
 import android.support.v7.app.AppCompatActivity;
